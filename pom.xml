@@ -28,6 +28,8 @@
   <artifactId>clojure-parent</artifactId>
   <version>1.0.0-SNAPSHOT</version>
   <packaging>pom</packaging>
+  <inceptionYear>2013</inceptionYear>
+  <url>${github.url}</url>
   <name>Clojure Parent</name>
   <description>Parent POM for all Clojure-based projects</description>
 
