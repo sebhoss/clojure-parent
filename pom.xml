@@ -32,6 +32,27 @@
   <description>Parent POM for all Clojure-based projects</description>
 
   <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+  <!--                                  SOURCE                                 -->
+  <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+  <scm>
+    <connection>${scm.connection}</connection>
+    <developerConnection>${scm.developerConnection}</developerConnection>
+    <tag>master</tag>
+    <url>${scm.url}</url>
+  </scm>
+
+  <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+  <!--                                PROPERTIES                               -->
+  <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+  <properties>
+    <github.url>http://github.com/sebhoss/clojure-parent/</github.url>
+    <scm.connection>scm:git:git://github.com/sebhoss/clojure-parent.git</scm.connection>
+    <scm.developerConnection>scm:git:git@github.com:sebhoss/clojure-parent.git</scm.developerConnection>
+    <scm.url>http://github.com/sebhoss/clojure-parent</scm.url>
+    <issueManagement.url>http://github.com/sebhoss/clojure-parent/issues</issueManagement.url>
+  </properties>
+
+  <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
   <!--                                  PLUGINS                                -->
   <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
   <build>
