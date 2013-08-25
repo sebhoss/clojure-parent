@@ -18,7 +18,7 @@
   <parent>
     <groupId>com.github.sebhoss</groupId>
     <artifactId>superpom</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
   </parent>
 
   <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
@@ -28,7 +28,7 @@
   <version>1.0.1-SNAPSHOT</version>
   <packaging>pom</packaging>
   <inceptionYear>2013</inceptionYear>
-  <url>${github.url}</url>
+  <url>http://github.com/sebhoss/clojure-parent</url>
   <name>Clojure Parent</name>
   <description>Parent POM for all Clojure-based projects</description>
 
@@ -36,22 +36,11 @@
   <!--                                  SOURCE                                 -->
   <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
   <scm>
-    <connection>${scm.connection}</connection>
-    <developerConnection>${scm.developerConnection}</developerConnection>
+    <connection>scm:git:git://github.com/sebhoss/clojure-parent.git</connection>
+    <developerConnection>scm:git:git@github.com:sebhoss/clojure-parent.git</developerConnection>
     <tag>master</tag>
-    <url>${scm.url}</url>
+    <url>${project.url}</url>
   </scm>
-
-  <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
-  <!--                                PROPERTIES                               -->
-  <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
-  <properties>
-    <github.url>http://github.com/sebhoss/clojure-parent/</github.url>
-    <scm.connection>scm:git:git://github.com/sebhoss/clojure-parent.git</scm.connection>
-    <scm.developerConnection>scm:git:git@github.com:sebhoss/clojure-parent.git</scm.developerConnection>
-    <scm.url>http://github.com/sebhoss/clojure-parent</scm.url>
-    <issueManagement.url>http://github.com/sebhoss/clojure-parent/issues</issueManagement.url>
-  </properties>
 
   <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
   <!--                                  PLUGINS                                -->
