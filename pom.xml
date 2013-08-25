@@ -87,6 +87,7 @@
         <version>1.3.17</version>
         <extensions>true</extensions>
         <configuration>
+          <replScript>src/bootstrap/clojure/bootstrap.clj</replScript>
           <warnOnReflection>true</warnOnReflection>
         </configuration>
       </plugin>
