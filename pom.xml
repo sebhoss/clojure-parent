@@ -62,6 +62,7 @@
           </excludes>
           <mapping>
             <clj>SEMICOLON_STYLE</clj>
+            <cljs>SEMICOLON_STYLE</cljs>
           </mapping>
         </configuration>
         <dependencies>
