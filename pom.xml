@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
 
-    This program is free software. It comes without any warranty, to
-    the extent permitted by applicable law. You can redistribute it
-    and/or modify it under the terms of the Do What The Fuck You Want
-    To Public License, Version 2, as published by Sam Hocevar. See
-    http://www.wtfpl.net/ for more details.
+    Copyright © 2013 Sebastian Hoß <mail@shoss.de>
+    This work is free. You can redistribute it and/or modify it under the
+    terms of the Do What The Fuck You Want To Public License, Version 2,
+    as published by Sam Hocevar. See http://www.wtfpl.net/ for more details.
 
 -->
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
@@ -18,7 +17,7 @@
   <parent>
     <groupId>com.github.sebhoss</groupId>
     <artifactId>superpom</artifactId>
-    <version>1.0.1</version>
+    <version>1.0.4-SNAPSHOT</version>
   </parent>
 
   <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
@@ -47,41 +46,6 @@
   <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
   <build>
     <plugins>
-      <plugin>
-        <groupId>com.mycila</groupId>
-        <artifactId>license-maven-plugin</artifactId>
-        <version>2.4</version>
-        <configuration>
-          <header>documentation-spec/header.txt</header>
-          <strictCheck>true</strictCheck>
-          <aggregate>true</aggregate>
-          <excludes>
-            <exclude>README.textile</exclude>
-            <exclude>CONTRIBUTING.textile</exclude>
-            <exclude>LICENSE</exclude>
-          </excludes>
-          <mapping>
-            <clj>SEMICOLON_STYLE</clj>
-            <cljs>SEMICOLON_STYLE</cljs>
-          </mapping>
-        </configuration>
-        <dependencies>
-          <dependency>
-            <groupId>com.github.sebhoss</groupId>
-            <artifactId>common-resources</artifactId>
-            <version>1.0.1</version>
-          </dependency>
-        </dependencies>
-        <executions>
-          <execution>
-            <phase>verify</phase>
-            <goals>
-              <goal>check</goal>
-            </goals>
-          </execution>
-        </executions>
-      </plugin>
-    
       <plugin>
         <groupId>com.theoryinpractise</groupId>
         <artifactId>clojure-maven-plugin</artifactId>
