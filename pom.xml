@@ -24,7 +24,7 @@
   <!--                               INFORMATIONS                              -->
   <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
   <artifactId>clojure-parent</artifactId>
-  <version>1.0.3-SNAPSHOT</version>
+  <version>1.0.3</version>
   <packaging>pom</packaging>
   <inceptionYear>2013</inceptionYear>
   <url>http://github.com/sebhoss/clojure-parent</url>
