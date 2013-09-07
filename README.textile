@@ -11,5 +11,5 @@ p. Use it as follows:
 bc.  <parent>
   <groupId>com.github.sebhoss</groupId>
   <artifactId>clojure-parent</artifactId>
-  <version>1.0.1</version>
+  <version>${version.clojure-parent}</version>
 </parent>
