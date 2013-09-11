@@ -2,7 +2,6 @@ h1. Clojure Parent "!https://secure.travis-ci.org/sebhoss/clojure-parent.png!":h
 
 p. Maven parent POM for Clojure-based projects. Defines several aspects of a build-process, such as
 
-* License header
 * Outputs -sources.jar
 * Compiler settings
 
